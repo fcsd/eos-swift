@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "eos-swift",
+    name: "eosswift",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "eos-swift",
+            name: "eosswift",
             targets: ["eos-swift"]),
     ],
     dependencies: [
